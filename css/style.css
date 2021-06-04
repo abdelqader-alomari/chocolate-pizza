@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    padding: 10px;
+}
+body{
+    width: 50%;
+    margin: auto;
+}
+span#logo ,span#text{
+    display: inline-block;
+}
+
+span#logo {
+    float: left;
+    padding: 10px;
+    }
+
+
+span#images {
+        float: right;
+        padding :50px 10px 0px 0px;
+}
+img[src*="rss"] {
+    margin-left: 20px;
+}
+span#text h3 {
+        font-family:'Times New Roman', Times, serif;
+        color:black;
+        font-size: 37px;
+        padding-top: 18px;
+}
+span#text h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+main hr {
+    padding: 20px;
+    border: 20px;
+    background-image: url(img/hr-img.png);
+    height: 30px;
+    clear: both;
+}
+article h1 {
+    font-size: 36px;
+    font-family: impact;
+    padding-bottom: 10px;
+    color: black;
+    display: inline-block;
+    
+}
+article h5 {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.print{
+    display: inline-block;
+    /* padding-left: 90%; */
+    position: relative;
+   color: grey;
+   left: 95%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img[src*="cho"] {
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+}
+article p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 20px;
+    margin-top: 30px;
+    min-inline-size: 30px;
+    color: grey;
+}
+article#recipe {
+    /* clear: both;
+    overflow: auto;
+    margin-top: 50px;
+    height: 305px;
+    width: 899px;
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d27/main/class-10/lab-a/lab-assets/list-bg.png);
+    /* background-size: contain; */
+    /* background-repeat: no-repeat;
+    background-position: center; */ 
+    
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d27/main/class-10/lab-a/lab-assets/list-bg.png);
+    /* background-size: 100%; */
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    /* position: absolute; */
+    /* padding-left: 100%;
+    margin-right:  50%; */
+    background-size: cover;
+    column-count: 2;
+    /* margin-left: 0px;
+    padding-left: 20; */
+   ; 
+   position: relative;
+   box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+   
+    
+
+
+
+}
+
+.rightcoloumn {
+    text-indent: unset;
+    position: absolute;
+    left: 115mm;
+    top: 10mm;
+    font-family: arial;
+    color: grey;
+}
+
+.leftcoloumn {
+    text-indent: unset;
+    position: absolute;
+    left: 40mm;
+    top: 10mm;
+    font-family: arial;
+    color: grey;
+}
+}
+
+
+
+
+ /* #right{ */
+    /* margin: 50px;
+    left: 40%; */
+
+  /* } */
+ /* #left{ 
+     margin:40px 100px 40px 60px ;
+     position: absolute;
+     left: 10%;
+ } */
+ 
+ /* #right{
+     margin:40px 40px 40px 60px ;
+     right: 14%;
+     position: absolute;
+ } */
+
+/* main hr {
+    background: url(https://github.com/LTUC/amman-201d27/blob/main/class-10/lab-a/lab-assets/hr-img.png);
+    height: 30px;
+    clear: both;
+} */
+/* article ul li{
+    display: inline-block;
+    /* float: right; */
+    right: 100mm;
+} 
+
+
+
+
+
+
+
+article p{
+    text-indent: 30px;
+}
+#vanessa {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button{
+        position: relative;
+        background-color: #cf5b5b;
+        color: whitesmoke;
+        height: 50px;
+        left: 80%;
+        right: 0%;
+        width: 170px;
+}
+#Vanessa img {
+    float: left;
+}
+#Vanessa img, #Vanessa p {
+    display: inline-block;
+    position: absolute;
+}
+#Vanessa h2{
+    display: inline-block;
+    position: absolute;
+    /* margin: auto; */
+    left: 140mm;
+    font-size: 24px ;font-family:Verdana, Geneva, Tahoma, sans-serif: bolder; font-weight: bolder
+ } 
+ #Vanessa p{
+     padding-right: 40%;
+     color: rgb(90, 82, 82);
+     display: inline-block;
+     position: absolute;
+     left: 140mm;
+     color: grey;
+ }
+ #psecond {
+    padding-right: 40%;
+    color: rgb(90, 82, 82);
+    display: inline-block;
+    position: absolute;
+    left: 110mm;
+    top: 365mm;
+ }
+
+ 
+
+#Vanessa img {
+    padding-right: 10px;
+}
+footer {
+    clear: both;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    font-family: arial;
+    line-height: 20px;
+    color: rgb(179, 176, 176);
+        margin-top: 50px;
+}
+/* #sLogo{
+    width: 48%;
+    display: inline-block;
+} */
+footer hr {
+    padding: 0px;
+}
+/* #Logoimg {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+} */
+
+
+
+.horizontal-line:before
+{
+ content: '';
+ margin: 0;
+ padding: 0;
+ color:black;
+ width: 100%;
+ height: 10px;
+ font-size: 5px;
+ display:block;
+ background: repeating-linear-gradient(135deg,rgb(168, 158, 158),rgb(160, 155, 155) .25em,transparent 0,transparent .75em );
+
+
+ body {
+     font-family: arial;
+ }
